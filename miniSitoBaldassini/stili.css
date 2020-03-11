@@ -1,0 +1,89 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,#menu a  {
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    color:#3cc;
+    text-align: center;
+}
+
+a {
+    font-family: 'Righteous', cursive;
+}
+
+#pagina {
+    width:1080px;
+    
+    margin:0 auto;
+}
+
+#header {
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.73);
+    position:fixed;
+    width:1080px;
+}
+
+#header img {
+    float:left;
+    padding-left:15px;
+    position:absolute;
+    top:52px;
+    left:20px;
+}
+
+#menu {
+    list-style-type: none;
+    padding-left:0;
+    float:right;
+    padding:25px 0 0 100px;
+}
+
+#menu li {
+    float:left;
+    margin:0 20px;
+}
+
+#menu li a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu li a:hover {
+    color:orange;
+}
+
+.colonna {
+    float:left;
+    width:340px;
+    margin:50px 30px 50px 0;
+    
+}
+
+.colonna h2 {
+    color:#3cc;
+    font-size:20px;
+}
+
+.colonna img {
+    width:99%;
+    border:2px solid #3cc;
+}
+
+.ultima {
+    margin-right:0;
+}
+
+#footer {
+    background-color: brown;
+    height: 45px;
+    text-align:center;
+    color:#aaa;
+    padding-top:15px;
+}
+
+
